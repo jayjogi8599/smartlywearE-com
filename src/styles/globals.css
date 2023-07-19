@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.homeimg {
+    margin: 0px  auto;
+    padding: auto;
+    border-radius: 0px;
+}
+.home{
+    background-color: rgb(73, 83, 37);
+ margin-top: 0px;
+}
+
+.bg-gray-50 {
+   
+    background-color: rgb(77, 206, 114);
+}
+.container {
+    max-width: 1736px;
+}
+
+.cartdiv{
+    border-radius: 3px;
+}
+.w-1\/6 {
+    width: 5.666667%;
+}
+@media (min-width: 640px) {
+    .sm\:text-sm {
+        font-size: 0.875rem/* 14px */;
+        line-height: 2.5rem/* 20px */;
+    }
+}
+
+input{
+   padding: 9px; 
+}
